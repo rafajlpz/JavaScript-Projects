@@ -1,0 +1,25 @@
+/* Reseteo de CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+
+.background{
+    border: black solid 1px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    border: black solid 1px;
+    position: fixed;
+    margin-top: 50px;
+    
+}
