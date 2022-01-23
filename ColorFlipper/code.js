@@ -13,7 +13,6 @@ btn.onclick = () => {
   for (let i = 0; i < 6; i++) {
     nColor += nuevoColor[getRandomNumber()];
   }
-
   color.textContent = nColor;
 // Cogemos dentro de las etiquetas HTML y CSS y le damos el valor de nColor
   document.body.style.backgroundColor = nColor;
