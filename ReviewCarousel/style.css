@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  --text1: hsl(150 100% 8%);
+  --text2: hsl(150 10% 60%);
+  --bkg1: hsl(190 70% 94.5%);
+  --bkg2: hsl(190 70% 99.5%);
+  --accent1: hsl(150 100% 50% / 0.6);
+  --accent2: hsl(190 100% 60% / 0.6);
+  --gradient: linear-gradient(to right, var(--accent1), var(--accent2));
+}
+
+body{
+    font-family: 'inter', sans-serif;
+    background-color: var(--bkg1);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    color: var(--text1);
+    padding: 2rem;
+    background-image: url('./imagenes/3799Ffxy.jpeg')
+}
+
+.review-container {
+    background-color: var(--bk2);
+    border-radius: .5rem;
+    position: relative;
+    text-align: center;
+}
+
