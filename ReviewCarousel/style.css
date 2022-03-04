@@ -91,7 +91,9 @@ body{
 .arrow{
   position: absolute;
   top: 50%;
-  transform: translate(-50%);
+  transform: translate(50%, -50%);
+  top: 50%;
+  right: 50%;
   background: none;
   padding: .4rem;
   color: var(--text2);
@@ -132,6 +134,36 @@ body{
 }
 
 #arrow--right:hover::before, #arrow--right:focus::before{
-  transform: translate(4%, -24) scale(.8);
+  transform: translate(4%, -2%) scale(.8);
   
 }
+
+
+#arrow--left{
+  left: 4%;
+}
+
+#arrow--left:is(:hover, :focus){
+  transform: translate(-10%, -50%);
+}
+
+#arrow--left::before{
+  
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--gradient);
+  z-index: -1;
+  transform: translate(-20%, -2%) scale(.6);
+  inline-size: min(50px, 100%);
+  block-size: min(50px, 100%);
+  filter: blur(1px);
+  transition: all 250ms ease-in-out;
+}
+
+#arrow--left:hover::before, #arrow--left:focus::before{
+  transform: translate(-4%, -24) scale(.8);
+  
+}
+
