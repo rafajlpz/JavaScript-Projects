@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../Modal/counter-strike-global-offensive-csgo-3197.webp)
+}
 .contenedor{
     display: flex;
     justify-content: center;
