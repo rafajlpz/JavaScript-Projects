@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 .contenedor{
-display: flex;
-justify-content: center;
-align-items: center;
-justify-items: center;
-
-
-}
-.contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
