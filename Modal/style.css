@@ -23,7 +23,7 @@ body {
   border: 1px lightblue solid;
   border-radius: 4px;
   box-shadow: 0 0 2em skyblue, 0 0 1em grey;
-
+  text-align: center;
   /* justify-items: center;
 justify-content: center;
 align-items: center; */
@@ -40,4 +40,16 @@ align-items: center; */
   background-color: transparent;
   border: none;
   background-color: none;
+}
+
+.modal{
+  height: 80px;
+  width: 200px;
+  background-color: red;
+  border: 0.5px solid burlywood;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
 }
