@@ -5,7 +5,7 @@ const btnCerrar = document.querySelector(".cerrar-modal");
 // document.querySelector(".abrir-modal")
 
 const abrirFicha = btnAbrir.onclick = () => {
-    alert()
+    // btnAbrir.className("modal").style.display = "flex"
 }
 
 const cerrarFicha = btnCerrar.onclick = () =>{
