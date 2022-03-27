@@ -12,13 +12,13 @@ const MonstrarSidebar = () => {
     // } else {
     //   sidebar.classList.add("show-sidebar");
     // }
-    sidebar.classList.toggle("show-sidebar");
+    sidebar.classList.add("show-sidebar");
   };
 };
 
 const cerrarBoton = () => {
   closeBtn.onclick = () => {
-    sidebar.classList.remove("show-sidebar");
+    sidebar.classList.add("show-sidebar");
   };
 };
 
