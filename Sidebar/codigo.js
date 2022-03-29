@@ -18,7 +18,8 @@ const MonstrarSidebar = () => {
 
 const cerrarBoton = () => {
   closeBtn.onclick = () => {
-    sidebar.classList.add("show-sidebar");
+    sidebar.classList.remove("show-sidebar");
+    
   };
 };
 
